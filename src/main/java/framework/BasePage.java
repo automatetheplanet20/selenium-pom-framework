@@ -16,8 +16,8 @@ public class BasePage {
 		log.info("BasePage(WebDriver driver) is invoked");
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, 20);
-//		BrowserUtils.driver.set(getDriver());
-//		BrowserUtils.wait.set(getDriverWait());
+		BrowserUtil.driver = this.driver;
+		BrowserUtil.wait = this.wait;
 		log.info("BasePage(WebDriver driver) is completed");
 	}
 	
@@ -26,6 +26,9 @@ public class BasePage {
 		log.info("BasePage() is invoked and there is nothing logic to handle here");
 		// TODO Auto-generated constructor stub
 	}
+	
+	//App page or home page...as the user of the application, you will search something from home page
+	//menu page
 	
 	
 	

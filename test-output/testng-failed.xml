@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="implicitWait" value="60"/>
+  <parameter name="secretKey" value="donotspillthesecret!"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="explicitWait" value="60"/>
+  <test thread-count="5" name="functional(failed)">
+    <classes>
+      <class name="testScripts.EcomTest">
+        <methods>
+          <include name="first_test"/>
+          <include name="beforeTestRun"/>
+          <include name="beforeSuiteSetUp"/>
+          <include name="afterSuiteTearDown"/>
+          <include name="afterTestRun"/>
+        </methods>
+      </class> <!-- testScripts.EcomTest -->
+    </classes>
+  </test> <!-- functional(failed) -->
+</suite> <!-- Failed suite [Suite] -->

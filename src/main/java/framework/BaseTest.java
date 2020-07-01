@@ -15,6 +15,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
+	
+	public String secretKey;
 
 	/**
 	 * reference variable for logger
@@ -35,8 +37,9 @@ public class BaseTest {
 	}
 
 	@BeforeTest
-	@Parameters({ "browser", "grid", "implicitWait", "explicitWait" })
-	public void beforeTestRun(String browser, String grid, int implicitWait, int explicitWait) {
+	@Parameters({ "browser", "implicitWait", "explicitWait","secretKey" })
+	public void beforeTestRun(String browser,int implicitWait, int explicitWait, String secretKey) {
+		this.secretKey = secretKey;
 		log.info("***************Test Case Execution Starts********************");
 		initWebDriver(browser);
 		configureDriver(implicitWait, explicitWait);

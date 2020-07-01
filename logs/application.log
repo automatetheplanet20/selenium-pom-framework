@@ -1,0 +1,96 @@
+30.06.2020 07:06:23.961 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+30.06.2020 07:06:23.961 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+30.06.2020 07:06:44.122 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+30.06.2020 07:07:13.712 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+30.06.2020 07:07:13.713 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+30.06.2020 07:07:33.904 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+30.06.2020 07:07:38.621 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+30.06.2020 07:07:38.622 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+30.06.2020 07:07:43.835 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+30.06.2020 07:07:43.836 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+30.06.2020 07:07:43.969 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+30.06.2020 07:07:44.061 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+30.06.2020 07:07:58.515 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+30.06.2020 07:07:58.515 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+30.06.2020 07:07:59.645 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+30.06.2020 07:07:59.652 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+30.06.2020 07:07:59.802 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+30.06.2020 07:07:59.891 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+30.06.2020 07:25:58.660 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+30.06.2020 07:25:58.661 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+30.06.2020 07:26:00.335 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+30.06.2020 07:26:00.336 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+30.06.2020 07:26:00.475 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+30.06.2020 07:26:00.574 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+30.06.2020 07:26:48.679 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+30.06.2020 07:26:48.680 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+30.06.2020 07:26:49.913 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+30.06.2020 07:26:49.914 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+30.06.2020 07:26:50.076 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+30.06.2020 07:26:50.174 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+30.06.2020 07:28:04.524 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+30.06.2020 07:28:04.525 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+30.06.2020 07:28:05.638 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+30.06.2020 07:28:05.646 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+30.06.2020 07:28:05.790 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+30.06.2020 07:28:05.886 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:05:44.927 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:05:44.928 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:05:46.679 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:05:46.679 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:05:46.809 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:05:46.949 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:08:08.549 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:08:08.550 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:08:10.019 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:08:10.020 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:08:10.169 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:08:10.655 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:09:12.295 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:09:12.296 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:09:13.472 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:09:13.472 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:09:13.623 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:09:14.099 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:11:44.629 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:11:44.630 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:11:46.017 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:11:46.018 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:11:46.165 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:11:46.634 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:12:16.127 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:12:16.128 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:12:17.272 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:12:17.272 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:12:17.411 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:12:17.874 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:12:53.154 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:12:53.155 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:12:54.460 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:12:54.460 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:12:54.623 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:14:07.995 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:16:49.214 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:16:49.215 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:16:50.915 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:16:50.915 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:16:51.079 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:16:51.689 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 07:18:53.571 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 07:18:53.572 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 07:18:55.067 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 07:18:55.067 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 07:18:55.211 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 07:18:55.784 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 08:23:39.269 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 08:23:39.270 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 08:23:41.204 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 08:23:41.205 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 08:23:41.403 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 08:23:41.515 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+01.07.2020 08:58:45.668 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+01.07.2020 08:58:45.669 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+01.07.2020 08:58:47.678 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+01.07.2020 08:58:47.678 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+01.07.2020 08:58:47.862 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+01.07.2020 08:58:48.597 INFO  - [BaseTest]:***************Test Case Execution Ends********************
