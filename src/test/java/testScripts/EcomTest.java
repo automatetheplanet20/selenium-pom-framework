@@ -1,37 +1,76 @@
 package testScripts;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import framework.BaseTest;
-import framework.Encryption;
-import framework.ExcelUtil;
+import framework.base.BaseTest;
+import framework.utils.ExcelUtil;
+import pageObjects.HomePage;
 
 public class EcomTest extends BaseTest{
 	
-	
+	public HomePage hp;
 	//New code
-	@Test
-	private void first_test() {
+	
+	@DataProvider(name="DP")
+	public Iterator<Object[]> getTestData(Method method) {
 		
-//		String BeforeEncryptionName = "selenium";
-//		System.out.println("Before encryption: " + BeforeEncryptionName);
-//		
-//		Encryption.decrypt(strToDecrypt, secret)
-//		
-//		String AfterEncryptionName = Encryption.encrypt(BeforeEncryptionName, secretKey);
-//		
-//		
-//		System.out.println("After encryption: " + AfterEncryptionName);
-//		
-//		
-//		String AfterDecryptionName = Encryption.decrypt(AfterEncryptionName, secretKey);
-//		
-//		
-//		System.out.println("After decryption: " + AfterDecryptionName);
+		String testName = method.getName(); 
+		List<HashMap<String,String>> dataMap = new ArrayList<HashMap<String, String>>();
 		
-		String value = ExcelUtil.ReadCellData("/Users/thinker/Documents/file_example_XLSX_10.xlsx", 1, 2);
+		switch (testName) {
+		case "test1":
+			dataMap = ExcelUtil.loadDataIntoMap("/Users/thinker/Documents/testdatapertest1.xlsx", testName);
+			break;
+
+		case "test2":
+			dataMap = ExcelUtil.loadDataIntoMap("/Users/thinker/Documents/testdatapertest2.xlsx", testName);
+			
+			break;
+			
+		default:
+			break;
+		}
+		System.out.println(testName);
+
+		Collection<Object[]> dp = new ArrayList<Object[]>();
+		for (HashMap<String, String> map : dataMap) {
+			dp.add(new Object[] { map });
+		}
+		return dp.iterator();
+	}
+	
+	@Test(dataProvider = "DP")
+	public void test1(HashMap<String, String> data) {
+		System.out.println(data);
+		hp = new HomePage(driver);
+		List<String> searchResults = hp.searchProduct(data.get("SearchString"));
+		for(String str:searchResults) {
+			assertTrue(str.contains(data.get("SearchString")),"Actual Value: " + str);
+		}
 		
-		System.out.println(value);
+		System.out.println("one");
+		
+	}
+	
+	
+	@Test(dataProvider = "DP")
+	public void test2(HashMap<String, String> data) {
+		assertEquals(data.get("Phone"), hp.getShopPhoneNumber());
+		
+		System.out.println(data);
+		System.out.println("two");
+		
 	}
 	
 

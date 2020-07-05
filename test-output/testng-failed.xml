@@ -9,9 +9,10 @@
     <classes>
       <class name="testScripts.EcomTest">
         <methods>
-          <include name="first_test"/>
-          <include name="beforeTestRun"/>
+          <include name="test2" invocation-numbers="1"/>
           <include name="beforeSuiteSetUp"/>
+          <include name="beforeTestRun"/>
+          <include name="test1" invocation-numbers="0 1"/>
           <include name="afterSuiteTearDown"/>
           <include name="afterTestRun"/>
         </methods>

@@ -1,4 +1,4 @@
-package framework;
+package framework.utils;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -24,6 +24,21 @@ public class BrowserUtil {
 		elem.click();
 		log.info("click(WebElement elem) is completed");
 
+	}
+	
+
+	public static void write(WebElement elem, String text) {
+		log.info("write(WebElement elem) is invoked");
+		wait.until(ExpectedConditions.visibilityOf(elem));
+		elem.sendKeys(text);
+		log.info("write(WebElement elem) is completed");
+		
+	}
+
+	public static String getText(WebElement elem) {
+		log.info("getText(WebElement elem) is invoked");
+		return elem.getText().trim();
+		
 	}
 
 }

@@ -1,4 +1,4 @@
-package framework;
+package framework.base;
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,8 +23,8 @@ public class BaseTest {
 	 */
 	private static final Logger log = Logger.getLogger(BaseTest.class);
 
-	WebDriver driver;
-	WebDriverWait wait;
+	public WebDriver driver;
+	public WebDriverWait wait;
 
 	@BeforeSuite
 	public void beforeSuiteSetUp() {
