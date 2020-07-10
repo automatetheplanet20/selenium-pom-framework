@@ -30,6 +30,7 @@ public class EcomTest extends BaseTest{
 		
 		switch (testName) {
 		case "test1":
+			//dataMap is almost equal to excel
 			dataMap = ExcelUtil.loadDataIntoMap("/Users/thinker/Documents/testdatapertest1.xlsx", testName);
 			break;
 
@@ -41,8 +42,10 @@ public class EcomTest extends BaseTest{
 		default:
 			break;
 		}
+		
 		System.out.println(testName);
 
+		//iterator is only present on collection. That's why we are creating collection of type object[]
 		Collection<Object[]> dp = new ArrayList<Object[]>();
 		for (HashMap<String, String> map : dataMap) {
 			dp.add(new Object[] { map });

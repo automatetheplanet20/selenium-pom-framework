@@ -6,11 +6,15 @@
 	<parameter name="implicitWait" value="60" />
 	<parameter name="explicitWait" value="60" />
 	<parameter name="secretKey" value="donotspillthesecret!" />
-	
+
 
 	<test name="functional">
 		<classes>
-			<class name="testScripts.EcomTest" />
+			<class name="testScripts.EcomTest">
+				<methods>
+					<include name="test1" />
+				</methods>
+			</class>
 		</classes>
 	</test> <!-- Test -->
 

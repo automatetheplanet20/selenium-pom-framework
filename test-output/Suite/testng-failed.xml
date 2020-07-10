@@ -9,7 +9,6 @@
     <classes>
       <class name="testScripts.EcomTest">
         <methods>
-          <include name="test2" invocation-numbers="1"/>
           <include name="beforeSuiteSetUp"/>
           <include name="beforeTestRun"/>
           <include name="test1" invocation-numbers="0 1"/>

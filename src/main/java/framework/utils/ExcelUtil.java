@@ -60,7 +60,14 @@ public class ExcelUtil {
 		
 		List<String> headerList = new ArrayList<String>();
 		
-		Sheet sheet=wb.getSheet(methodName);
+		Sheet sheet = null;
+		
+		if(methodName!=null) {
+			sheet=wb.getSheet(methodName);	
+		}
+		
+		sheet=wb.getSheetAt(0);
+		
 		
 		Row headerRow=sheet.getRow(0);
 		
@@ -81,6 +88,12 @@ public class ExcelUtil {
 		}
 		
 		return dataMap;
-	}  
+	} 
+	
+	public static List<HashMap<String, String>> loadDataIntoMap(String filePath) { 
+		return loadDataIntoMap(filePath, null);
+		
+		
+	} 
 }  
 

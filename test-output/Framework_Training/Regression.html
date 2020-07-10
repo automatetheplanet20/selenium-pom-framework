@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  functional</title>
+<title>TestNG:  Regression</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>functional</h2><table border='1' align="center">
+<h2 align='center'>Regression</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 08 09:05:52 EDT 2020</td>
+<td>Started on:</td><td>Mon Jul 06 23:25:25 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10834 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1583 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScripts.EcomTest.test1()'><b>test1</b><br>Test class: testScripts.EcomTest<br>Parameters: {SearchString=Printed Summer Dress}</td>
-<td><div><pre>java.lang.AssertionError: Actual Value: Printed Chiffon Dress expected [true] but found [false]
-	at testScripts.EcomTest.test1(EcomTest.java:62)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1185502159", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1185502159'><pre>java.lang.AssertionError: Actual Value: Printed Chiffon Dress expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at testScripts.EcomTest.test1(EcomTest.java:62)
+<td title='testScripts.EcomTest.test2()'><b>test2</b><br>Test class: testScripts.EcomTest<br>Parameters: {Phone=0123-456-789}</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.EcomTest.test2(EcomTest.java:69)
+	at testScripts.Runner.main(Runner.java:75)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace638580151", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace638580151'><pre>java.lang.NullPointerException
+	at testScripts.EcomTest.test2(EcomTest.java:69)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -106,22 +104,18 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 	at org.testng.TestNG.runSuites(TestNG.java:1049)
 	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at testScripts.Runner.main(Runner.java:75)
 </pre></div></td>
-<td>5</td>
-<td>testScripts.EcomTest@12359a82</td></tr>
+<td>0</td>
+<td>testScripts.EcomTest@376a312c</td></tr>
 <tr>
-<td title='testScripts.EcomTest.test1()'><b>test1</b><br>Test class: testScripts.EcomTest<br>Parameters: {SearchString=Printed Chiffon Dress}</td>
-<td><div><pre>java.lang.AssertionError: Actual Value: Printed Summer Dress expected [true] but found [false]
-	at testScripts.EcomTest.test1(EcomTest.java:62)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1966480630", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1966480630'><pre>java.lang.AssertionError: Actual Value: Printed Summer Dress expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at testScripts.EcomTest.test1(EcomTest.java:62)
+<td title='testScripts.EcomTest.test2()'><b>test2</b><br>Test class: testScripts.EcomTest<br>Parameters: {Phone=2145-123-654}</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.EcomTest.test2(EcomTest.java:69)
+	at testScripts.Runner.main(Runner.java:75)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace925152318", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace925152318'><pre>java.lang.NullPointerException
+	at testScripts.EcomTest.test2(EcomTest.java:69)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,12 +138,10 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 	at org.testng.TestNG.runSuites(TestNG.java:1049)
 	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at testScripts.Runner.main(Runner.java:75)
 </pre></div></td>
-<td>2</td>
-<td>testScripts.EcomTest@12359a82</td></tr>
+<td>0</td>
+<td>testScripts.EcomTest@376a312c</td></tr>
 </table><p>
 </body>
 </html>

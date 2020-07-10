@@ -542,3 +542,255 @@
 03.07.2020 23:54:54.073 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
 03.07.2020 23:54:54.094 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
 03.07.2020 23:54:54.211 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+05.07.2020 20:55:23.645 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+05.07.2020 20:55:23.646 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+05.07.2020 20:55:26.324 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+05.07.2020 20:55:26.324 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+05.07.2020 20:55:26.462 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+05.07.2020 20:55:26.894 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+05.07.2020 20:55:26.910 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+05.07.2020 20:55:26.910 INFO  - [HomePage]:launchApp(String url) is invoked
+05.07.2020 20:55:29.513 INFO  - [HomePage]:launchApp(String url) is completed
+05.07.2020 20:55:29.514 INFO  - [HomePage]:Home page constructor is invoked
+05.07.2020 20:55:29.514 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+05.07.2020 20:55:29.514 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+05.07.2020 20:55:29.861 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+05.07.2020 20:55:29.862 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+05.07.2020 20:55:31.941 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+05.07.2020 20:55:31.996 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+05.07.2020 20:55:31.996 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+05.07.2020 20:55:31.996 INFO  - [HomePage]:launchApp(String url) is invoked
+05.07.2020 20:55:33.415 INFO  - [HomePage]:launchApp(String url) is completed
+05.07.2020 20:55:33.416 INFO  - [HomePage]:Home page constructor is invoked
+05.07.2020 20:55:33.416 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+05.07.2020 20:55:33.416 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+05.07.2020 20:55:33.569 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+05.07.2020 20:55:33.570 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+05.07.2020 20:55:35.288 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+05.07.2020 20:55:35.347 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+05.07.2020 20:55:35.368 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+05.07.2020 20:55:35.489 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+05.07.2020 21:23:42.740 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+05.07.2020 21:23:42.741 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+05.07.2020 21:23:44.576 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+05.07.2020 21:23:44.577 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+05.07.2020 21:23:44.738 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+05.07.2020 21:23:45.309 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+05.07.2020 21:23:45.329 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+05.07.2020 21:23:45.329 INFO  - [HomePage]:launchApp(String url) is invoked
+05.07.2020 21:23:48.311 INFO  - [HomePage]:launchApp(String url) is completed
+05.07.2020 21:23:48.311 INFO  - [HomePage]:Home page constructor is invoked
+05.07.2020 21:23:48.311 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+05.07.2020 21:23:48.312 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+05.07.2020 21:23:48.584 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+05.07.2020 21:23:48.585 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+05.07.2020 21:23:50.136 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+05.07.2020 21:23:50.191 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+05.07.2020 21:23:50.192 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+05.07.2020 21:23:50.192 INFO  - [HomePage]:launchApp(String url) is invoked
+05.07.2020 21:23:51.513 INFO  - [HomePage]:launchApp(String url) is completed
+05.07.2020 21:23:51.513 INFO  - [HomePage]:Home page constructor is invoked
+05.07.2020 21:23:51.514 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+05.07.2020 21:23:51.514 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+05.07.2020 21:23:51.713 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+05.07.2020 21:23:51.713 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+05.07.2020 21:23:52.781 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+05.07.2020 21:23:52.835 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+05.07.2020 21:23:52.856 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+05.07.2020 21:23:52.968 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+06.07.2020 21:12:16.685 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+06.07.2020 21:12:16.689 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+06.07.2020 21:12:24.220 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+06.07.2020 21:12:24.221 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+06.07.2020 21:12:24.448 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+06.07.2020 21:12:24.921 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 21:12:25.176 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 21:12:25.177 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 21:12:28.314 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 21:12:28.315 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 21:12:28.315 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 21:12:28.316 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 21:12:29.452 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 21:12:29.453 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 21:12:31.235 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 21:12:31.416 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 21:12:31.418 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 21:12:31.419 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 21:12:32.723 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 21:12:32.724 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 21:12:32.724 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 21:12:32.725 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 21:12:33.703 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 21:12:33.704 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 21:12:36.238 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 21:12:36.617 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 21:12:36.656 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 21:12:36.799 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+06.07.2020 21:12:37.167 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+06.07.2020 21:12:37.168 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+06.07.2020 21:12:38.263 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+06.07.2020 21:12:38.264 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+06.07.2020 21:12:38.410 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+06.07.2020 21:12:38.716 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 21:12:38.718 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 21:12:38.718 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 21:12:41.617 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 21:12:41.619 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 21:12:41.619 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 21:12:41.620 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 21:12:42.631 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 21:12:42.632 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 21:12:44.545 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 21:12:44.628 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 21:12:44.632 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 21:12:44.633 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 21:12:46.598 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 21:12:46.599 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 21:12:46.599 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 21:12:46.600 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 21:12:47.548 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 21:12:47.549 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 21:12:49.134 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 21:12:49.491 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 21:12:49.547 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 21:12:49.685 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+06.07.2020 22:53:12.188 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+06.07.2020 22:53:12.190 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+06.07.2020 22:53:18.923 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+06.07.2020 22:53:18.924 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+06.07.2020 22:53:24.901 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+06.07.2020 22:53:25.388 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 22:53:25.622 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 22:53:25.623 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 22:53:28.256 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 22:53:28.257 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 22:53:28.258 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 22:53:28.258 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 22:53:29.344 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 22:53:29.345 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 22:53:31.336 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 22:53:31.507 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 22:53:31.510 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 22:53:31.510 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 22:53:32.890 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 22:53:32.891 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 22:53:32.891 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 22:53:32.892 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 22:53:33.835 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 22:53:33.836 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 22:53:35.637 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 22:53:36.006 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 22:53:36.044 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 22:53:36.187 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+06.07.2020 22:53:36.392 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+06.07.2020 22:53:36.392 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+06.07.2020 22:53:37.388 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+06.07.2020 22:53:37.389 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+06.07.2020 22:53:37.552 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+06.07.2020 22:53:37.858 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 22:53:37.860 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 22:53:37.860 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 22:53:40.551 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 22:53:40.552 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 22:53:40.552 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 22:53:40.553 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 22:53:41.579 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 22:53:41.580 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 22:53:43.332 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 22:53:43.415 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 22:53:43.419 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 22:53:43.420 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 22:53:44.467 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 22:53:44.467 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 22:53:44.468 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 22:53:44.468 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 22:53:45.405 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 22:53:45.406 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 22:53:47.078 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 22:53:47.444 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 22:53:47.483 INFO  - [BrowserUtil]:getText(WebElement elem) is invoked
+06.07.2020 22:53:47.619 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+06.07.2020 23:16:55.473 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+06.07.2020 23:16:55.474 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+06.07.2020 23:16:57.110 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+06.07.2020 23:16:57.111 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+06.07.2020 23:16:57.268 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+06.07.2020 23:16:57.829 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 23:16:57.847 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 23:16:57.847 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 23:17:00.345 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 23:17:00.345 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 23:17:00.345 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 23:17:00.345 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 23:17:00.611 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 23:17:00.612 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 23:17:01.509 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 23:17:01.716 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 23:17:01.718 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 23:17:01.718 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 23:17:02.723 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 23:17:02.723 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 23:17:02.723 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 23:17:02.723 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 23:17:02.864 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 23:17:02.865 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 23:17:03.950 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 23:17:04.087 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+06.07.2020 23:25:08.312 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+06.07.2020 23:25:08.314 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+06.07.2020 23:25:14.757 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+06.07.2020 23:25:14.758 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+06.07.2020 23:25:14.975 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+06.07.2020 23:25:15.446 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 23:25:15.681 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 23:25:15.682 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 23:25:18.136 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 23:25:18.137 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 23:25:18.137 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 23:25:18.138 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 23:25:19.252 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 23:25:19.253 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 23:25:21.204 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 23:25:21.378 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+06.07.2020 23:25:21.380 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+06.07.2020 23:25:21.380 INFO  - [HomePage]:launchApp(String url) is invoked
+06.07.2020 23:25:22.371 INFO  - [HomePage]:launchApp(String url) is completed
+06.07.2020 23:25:22.371 INFO  - [HomePage]:Home page constructor is invoked
+06.07.2020 23:25:22.372 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+06.07.2020 23:25:22.372 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+06.07.2020 23:25:23.355 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+06.07.2020 23:25:23.355 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+06.07.2020 23:25:24.983 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+06.07.2020 23:25:25.162 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+06.07.2020 23:25:25.346 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+06.07.2020 23:25:25.346 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+06.07.2020 23:25:26.273 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+06.07.2020 23:25:26.274 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+06.07.2020 23:25:26.536 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+06.07.2020 23:25:26.926 INFO  - [BaseTest]:***************Test Case Execution Ends********************
+08.07.2020 09:05:52.377 INFO  - [BaseTest]:***************Test Case Execution Starts********************
+08.07.2020 09:05:52.378 INFO  - [BaseTest]:initWebDriver(String browser, String grid) invoked
+08.07.2020 09:05:54.886 INFO  - [BaseTest]:initWebDriver(String browser, String grid) is completed
+08.07.2020 09:05:54.886 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is invoked
+08.07.2020 09:05:55.029 INFO  - [BaseTest]:configureDriver(int implicitWait, int explicitWait) is completed
+08.07.2020 09:05:55.633 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+08.07.2020 09:05:55.655 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+08.07.2020 09:05:55.655 INFO  - [HomePage]:launchApp(String url) is invoked
+08.07.2020 09:05:59.100 INFO  - [HomePage]:launchApp(String url) is completed
+08.07.2020 09:05:59.101 INFO  - [HomePage]:Home page constructor is invoked
+08.07.2020 09:05:59.101 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+08.07.2020 09:05:59.101 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+08.07.2020 09:05:59.469 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+08.07.2020 09:05:59.469 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+08.07.2020 09:06:00.966 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+08.07.2020 09:06:01.023 INFO  - [BasePage]:BasePage(WebDriver driver) is invoked
+08.07.2020 09:06:01.023 INFO  - [BasePage]:BasePage(WebDriver driver) is completed
+08.07.2020 09:06:01.024 INFO  - [HomePage]:launchApp(String url) is invoked
+08.07.2020 09:06:02.263 INFO  - [HomePage]:launchApp(String url) is completed
+08.07.2020 09:06:02.263 INFO  - [HomePage]:Home page constructor is invoked
+08.07.2020 09:06:02.263 INFO  - [HomePage]:Home page objects are initialized successfully and constructor ends
+08.07.2020 09:06:02.263 INFO  - [BrowserUtil]:write(WebElement elem) is invoked
+08.07.2020 09:06:02.407 INFO  - [BrowserUtil]:write(WebElement elem) is completed
+08.07.2020 09:06:02.407 INFO  - [BrowserUtil]:click(WebElement elem) is invoked
+08.07.2020 09:06:02.974 INFO  - [BrowserUtil]:click(WebElement elem) is completed
+08.07.2020 09:06:03.204 INFO  - [BaseTest]:***************Test Case Execution Ends********************

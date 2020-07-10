@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Framework_Training]">
   <parameter name="implicitWait" value="60"/>
   <parameter name="secretKey" value="donotspillthesecret!"/>
   <parameter name="browser" value="chrome"/>
   <parameter name="explicitWait" value="60"/>
-  <test thread-count="5" name="functional(failed)">
+  <test thread-count="5" name="Functional(failed)">
     <classes>
       <class name="testScripts.EcomTest">
         <methods>
@@ -17,5 +17,18 @@
         </methods>
       </class> <!-- testScripts.EcomTest -->
     </classes>
-  </test> <!-- functional(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Functional(failed) -->
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="testScripts.EcomTest">
+        <methods>
+          <include name="test2" invocation-numbers="0 1"/>
+          <include name="beforeSuiteSetUp"/>
+          <include name="beforeTestRun"/>
+          <include name="afterSuiteTearDown"/>
+          <include name="afterTestRun"/>
+        </methods>
+      </class> <!-- testScripts.EcomTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Framework_Training] -->
