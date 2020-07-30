@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testScripts.EcomTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="testScripts.EcomTest">
+        <methods>
+          <include name="test2"/>
+          <include name="beforeSuiteSetUp"/>
+          <include name="beforeTestRun"/>
+          <include name="test1"/>
+          <include name="afterSuiteTearDown"/>
+          <include name="afterTestRun"/>
+        </methods>
+      </class> <!-- testScripts.EcomTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testScripts.EcomTest] -->

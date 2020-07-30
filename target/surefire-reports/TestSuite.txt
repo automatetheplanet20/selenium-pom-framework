@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 17.516 s <<< FAILURE! - in TestSuite
+testScripts.EcomTest.test1[{SearchString=Printed Summer Dress}](1)  Time elapsed: 5.512 s  <<< FAILURE!
+java.lang.AssertionError: Actual Value: Printed Chiffon Dress expected [true] but found [false]
+	at testScripts.EcomTest.test1(EcomTest.java:64)
+
+testScripts.EcomTest.test1[{SearchString=Printed Chiffon Dress}](2)  Time elapsed: 2.784 s  <<< FAILURE!
+java.lang.AssertionError: Actual Value: Printed Summer Dress expected [true] but found [false]
+	at testScripts.EcomTest.test1(EcomTest.java:64)
+
+testScripts.EcomTest.test2[{Phone=2145-123-654}](2)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: expected [0123-456-789] but found [2145-123-654]
+	at testScripts.EcomTest.test2(EcomTest.java:75)
+
