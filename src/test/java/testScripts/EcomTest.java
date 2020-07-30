@@ -17,6 +17,8 @@ import framework.base.BaseTest;
 import framework.utils.ExcelUtil;
 import pageObjects.HomePage;
 
+
+//all test cases will be executed for all the test data once
 public class EcomTest extends BaseTest{
 	
 	public HomePage hp;
@@ -43,7 +45,7 @@ public class EcomTest extends BaseTest{
 			break;
 		}
 		
-		System.out.println(testName);
+//		System.out.println(testName);
 
 		//iterator is only present on collection. That's why we are creating collection of type object[]
 		Collection<Object[]> dp = new ArrayList<Object[]>();
@@ -55,14 +57,14 @@ public class EcomTest extends BaseTest{
 	
 	@Test(dataProvider = "DP")
 	public void test1(HashMap<String, String> data) {
-		System.out.println(data);
+//		System.out.println(data);
 		hp = new HomePage(driver);
 		List<String> searchResults = hp.searchProduct(data.get("SearchString"));
 		for(String str:searchResults) {
 			assertTrue(str.contains(data.get("SearchString")),"Actual Value: " + str);
 		}
 		
-		System.out.println("one");
+//		System.out.println("one");
 		
 	}
 	
@@ -71,8 +73,8 @@ public class EcomTest extends BaseTest{
 	public void test2(HashMap<String, String> data) {
 		assertEquals(data.get("Phone"), hp.getShopPhoneNumber());
 		
-		System.out.println(data);
-		System.out.println("two");
+//		System.out.println(data);
+//		System.out.println("two");
 		
 	}
 	

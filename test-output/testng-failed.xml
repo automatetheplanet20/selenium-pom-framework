@@ -5,10 +5,15 @@
   <parameter name="secretKey" value="donotspillthesecret!"/>
   <parameter name="browser" value="chrome"/>
   <parameter name="explicitWait" value="60"/>
+  <listeners>
+    <listener class-name="framework.reporters.ProgressReporter"/>
+    <listener class-name="framework.reporters.HTMLReporter"/>
+  </listeners>
   <test thread-count="5" name="functional(failed)">
     <classes>
       <class name="testScripts.EcomTest">
         <methods>
+          <include name="test2" invocation-numbers="1"/>
           <include name="beforeSuiteSetUp"/>
           <include name="beforeTestRun"/>
           <include name="test1" invocation-numbers="0 1"/>

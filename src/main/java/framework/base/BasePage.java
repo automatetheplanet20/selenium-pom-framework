@@ -35,6 +35,7 @@ public class BasePage {
         try (InputStream input = new FileInputStream("/Users/thinker/training/ecommerce/src/main/resources/config.properties")) {
 
             // load a properties file
+
             prop.load(input);
             appURL = prop.getProperty("url");
             

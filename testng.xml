@@ -2,21 +2,32 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Suite">
+
+	<listeners>
+		<listener class-name="framework.reporters.ProgressReporter" />
+		<listener class-name="framework.reporters.HTMLReporter" />
+	</listeners>
+
 	<parameter name="browser" value="chrome" />
 	<parameter name="implicitWait" value="60" />
 	<parameter name="explicitWait" value="60" />
 	<parameter name="secretKey" value="donotspillthesecret!" />
 
 
+
 	<test name="functional">
 		<classes>
-			<class name="testScripts.EcomTest">
-				<methods>
-					<include name="test1" />
-				</methods>
-			</class>
+			<class name="testScripts.EcomTest"/>
 		</classes>
-	</test> <!-- Test -->
+	</test>
+
+	<!-- <test name="functional"> <classes> <class name="testScripts.EcomTest"> 
+		<methods> <include name="test1" /> </methods> </class> </classes> </test> 
+		Test <test name="functional"> <classes> <class name="testScripts.EcomTest"> 
+		<methods> <include name="test1" /> </methods> </class> </classes> </test> 
+		Test <test name="functional"> <classes> <class name="testScripts.EcomTest"> 
+		<methods> <include name="test1" /> </methods> </class> </classes> </test> 
+		Test -->
 
 
 
